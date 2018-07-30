@@ -11,6 +11,8 @@ def location(weather)
 return weather	
 end
 
+def description
+  return weather["description"]= partly cloudy
 # 2. Using the location method as a guide, write a  method called "description" so it returns the description from the weather hash. 
 
 
